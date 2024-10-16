@@ -1,5 +1,5 @@
 * Define relative path 
-global path "/Users/yanyuma/Documents/Stata/data_LA building_0329"
+global path "/Users/yanyuma/Documents/Stata/data_LA building_0329" //need to change when you run it 
 *import excel "$path/raw data-0329.xlsx", firstrow clear
 *gen ID = _n
 *drop uuid vbrowserr15oe-csid
