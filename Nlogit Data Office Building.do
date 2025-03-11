@@ -43,7 +43,9 @@ drop if Block5PCScreen == 2  //
 drop if Block6PCScreen == 2  // 
 drop if Block7PCScreen == 2  // 
 drop if Block8PCScreen == 2  // 
-tab AssignBlock  // total 328   
+tab AssignBlock  // total 328  
+count if randomR == 1  //  162 for control
+count if randomR == 2  //  166 for treatment
 drop Block1PCScreen
 drop Block2PCScreen
 drop Block3PCScreen

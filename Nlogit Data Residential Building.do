@@ -29,7 +29,7 @@ tab AssignBlock  // total 487
 count if randomR == 1  // 239 for control 
 count if randomR == 2  // 248 for treatment 
 save "$path/Nlogit residential building.dta",replace 
-
+*save "$path/residential building DataSet1.dta",replace 
 
 ******************** for part A: Residentaial building ********************
 use "$path/Nlogit residential building.dta", clear
